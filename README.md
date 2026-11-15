@@ -4,6 +4,8 @@
 
 Reusable agent skills published by Ice Lab Research.
 
+Tools for working with media, published by [Ice Lab](https://icelab.sh).
+
 ## available skills
 
 | Skill | Purpose |
