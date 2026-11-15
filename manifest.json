@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "skills": [
+    {
+      "name": "dialogue-reels-editing",
+      "path": "skills/dialogue-reels-editing/SKILL.md",
+      "description": "Context-aware editing and QA for multi-speaker podcast Reels, TikToks, and YouTube Shorts."
+    }
+  ]
+}
