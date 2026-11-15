@@ -200,6 +200,8 @@ Mixing rules:
 - retain speaker labels only when needed to resolve ambiguity
 - keep captions clear of platform UI and visible mouths
 - export an editable `.srt` plus the styled timeline track
+- when using a subtitle box, keep the background and speaker tag on a separate continuous layer; let only the words change at cue boundaries
+- inspect at least one caption gap and each card transition to confirm the box does not blink or cover important visuals
 
 ## 12. Vertical framing and safe zones
 

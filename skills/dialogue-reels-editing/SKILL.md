@@ -40,7 +40,7 @@ metadata:
 11. **Source purposeful meme inserts.** Search for contextually relevant, legally reusable reactions or create an original branded meme. Record the source URL, creator, license, and exact usage timestamp before importing it.
 12. **Add selective sound design.** Use a drum hit, rimshot, radio click, tape stop, riser, or other effect only on a clear joke, reveal, transition, or emphasis beat. Keep it under dialogue and preserve an effect-free version.
 13. **Polish dialogue to studio quality.** Repair source problems first, then de-hum, denoise, EQ, de-ess, control dynamics, and normalize loudness conservatively. Compare against the untreated track for artifacts.
-14. **Correct captions.** Compare each caption with approximately 20 seconds before and after, fix names and technical terms, and ensure timing follows the edited audio rather than the original transcript.
+14. **Correct captions.** Compare each caption with approximately 20 seconds before and after, fix names and technical terms, and ensure timing follows the edited audio rather than the original transcript. If the design uses a subtitle box, keep its background on one continuous layer for the whole reel; time only the words to speech. Check gaps, cuts, and the first and final frames for flicker.
 15. **Apply branding.** If the show has a brand skill or style guide, use it for covers, episode labels, type, caption styling, motion, and safe zones.
 16. **Plan a platform test.** Export one core edit, vary one hypothesis at a time, and record any published variant in the playbook's publication ledger when posting and analytics are in scope. Compare only with similar posts on the same account and platform. Instagram Trial Reels may be used for eligible accounts. Never promise virality.
 17. **Run final QA.** Watch once for story, once for picture/speaker choice, once for audio and lip-sync, and once for captions and platform framing.
@@ -76,6 +76,7 @@ See `references/dialogue-reels-standard.md` for thresholds, decision rules, and 
 - Do not let a drum hit, laugh cue, or effect mask speech or turn every sentence into a punchline.
 - Do not label aggressive denoise or flattened dynamics as studio quality.
 - Do not burn captions into the only editable master.
+- Do not attach a persistent subtitle box to individual word cues so it disappears between them.
 - Do not claim sync is correct without checking visible speech at multiple points.
 - Do not promise or imply guaranteed virality; document the hypothesis and let retention, completion, shares, saves, and follow-through decide.
 - Do not place a multi-second logo or cover card before the first useful spoken or visual beat.

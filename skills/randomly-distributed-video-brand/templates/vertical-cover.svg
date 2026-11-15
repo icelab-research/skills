@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1920" viewBox="0 0 1080 1920">
+  <defs>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#8EA4C9" stroke-opacity="0.12" stroke-width="2"/>
+    </pattern>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="2" seed="42"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="table" tableValues="0 0.09"/></feComponentTransfer>
+    </filter>
+  </defs>
+  <rect width="1080" height="1920" fill="#0B0D10"/>
+  <rect width="1080" height="1920" fill="url(#grid)"/>
+  <rect x="80" y="176" width="250" height="72" rx="4" fill="#89FF6A"/>
+  <text x="105" y="226" font-family="Menlo, monospace" font-size="36" font-weight="700" fill="#0B0D10">EP. 000</text>
+  <text x="80" y="380" font-family="DIN Condensed, Impact, sans-serif" font-size="132" font-weight="700" fill="#E7DFD1" letter-spacing="1">
+    <tspan x="80" dy="0">COVER</tspan><tspan x="80" dy="118">HEADLINE</tspan><tspan x="80" dy="118">GOES HERE</tspan>
+  </text>
+  <g transform="translate(92 850)" fill="none" stroke="#89FF6A" stroke-width="7">
+    <circle cx="150" cy="120" r="42"/><circle cx="430" cy="40" r="42"/><circle cx="700" cy="190" r="42"/>
+    <path d="M190 105L388 52M470 62L660 170M190 138L660 186"/>
+  </g>
+  <rect x="80" y="1350" width="920" height="230" fill="#171A1F" fill-opacity="0.92" stroke="#E7DFD1" stroke-width="3"/>
+  <text x="120" y="1430" font-family="Menlo, monospace" font-size="28" fill="#FFB14A">&gt; CLIP_METADATA</text>
+  <text x="120" y="1500" font-family="Helvetica Neue, Arial, sans-serif" font-size="42" font-weight="700" fill="#E7DFD1">Short supporting line or topic</text>
+  <text x="120" y="1552" font-family="Menlo, monospace" font-size="25" fill="#8EA4C9">#distributed  #random  #systems</text>
+  <rect width="1080" height="1920" filter="url(#grain)" opacity="0.45"/>
+</svg>
