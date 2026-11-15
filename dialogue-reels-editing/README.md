@@ -1,0 +1,36 @@
+# Dialogue Reels Editing Skill
+
+An open-source-ready agent skill for turning multi-speaker podcast and interview footage into concise vertical clips without sacrificing meaning, lip-sync, speaker visibility, audio continuity, or caption quality.
+
+## Focus
+
+- context-aware silence and filler removal
+- frame-accurate audio/lip alignment
+- active-speaker camera selection
+- reversible Resolve timelines
+- dialogue cleanup and loudness checks
+- rights-aware meme/reaction overlays and selective sound design
+- transparent studio-quality dialogue polish with an untreated backup
+- complete, contextual subtitles
+- 9:16 framing and delivery QA
+
+## Install
+
+Copy `dialogue-reels-editing` into your agent's skills directory. Keep the directory structure intact so `SKILL.md` can load its reference and script.
+
+## Preflight
+
+```bash
+chmod +x scripts/reels_preflight.sh
+scripts/reels_preflight.sh /absolute/path/to/short.mp4
+```
+
+The preflight is read-only. Its silence output is a proposal for human/contextual review, not an automatic deletion list.
+
+## Companion skill
+
+Use `randomly-distributed-video-brand` when the short belongs to the Randomly Distributed podcast.
+
+## License
+
+Choose and add the repository's license before public release.
