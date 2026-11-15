@@ -217,7 +217,7 @@ Mixing rules:
 - start with audible content and a moving speaker or relevant visual; an editable title may overlay the opening while it remains readable and unobtrusive
 - keep a separate designed cover still for the grid or profile
 - include episode identification and an accurate topic headline
-- for Randomly Distributed, follow `randomly-distributed-video-brand`
+- follow the show's brand skill or style guide when one exists
 
 ## 14. Final QA passes
 

@@ -31,7 +31,7 @@ The preflight is read-only. Its silence output is a proposal for human/contextua
 
 ## Companion skill
 
-Use `randomly-distributed-video-brand` when the short belongs to the Randomly Distributed podcast.
+Pair this with the show's own brand skill or style guide for covers, captions, and motion.
 
 ## License
 

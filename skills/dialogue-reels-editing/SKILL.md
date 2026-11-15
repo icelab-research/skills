@@ -41,7 +41,7 @@ metadata:
 12. **Add selective sound design.** Use a drum hit, rimshot, radio click, tape stop, riser, or other effect only on a clear joke, reveal, transition, or emphasis beat. Keep it under dialogue and preserve an effect-free version.
 13. **Polish dialogue to studio quality.** Repair source problems first, then de-hum, denoise, EQ, de-ess, control dynamics, and normalize loudness conservatively. Compare against the untreated track for artifacts.
 14. **Correct captions.** Compare each caption with approximately 20 seconds before and after, fix names and technical terms, and ensure timing follows the edited audio rather than the original transcript.
-15. **Apply branding.** Use `randomly-distributed-video-brand` for covers, episode labels, type, caption styling, motion, and safe zones when the content belongs to Randomly Distributed.
+15. **Apply branding.** If the show has a brand skill or style guide, use it for covers, episode labels, type, caption styling, motion, and safe zones.
 16. **Plan a platform test.** Export one core edit, vary one hypothesis at a time, and record any published variant in the playbook's publication ledger when posting and analytics are in scope. Compare only with similar posts on the same account and platform. Instagram Trial Reels may be used for eligible accounts. Never promise virality.
 17. **Run final QA.** Watch once for story, once for picture/speaker choice, once for audio and lip-sync, and once for captions and platform framing.
 18. **Deliver.** Provide the editable timeline, caption file, clean master, publish render, cover still, source timestamps, asset credits, and an edit/marker manifest.
