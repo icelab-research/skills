@@ -11,11 +11,11 @@ Use sources in this order:
 3. comparable niche creators and outlier posts
 4. open-source editing skills and practitioner heuristics
 
-Platform guidance describes ranking inputs, not a guaranteed recipe. Advertising playbooks may inspire craft, but do not present them as proof of organic ranking.
+Platform guidance describes ranking inputs, not a guaranteed recipe. Advertising playbooks may inspire craft, but do not present them as proof of organic ranking. There is no universal posting hour, duration, hashtag count, or retention threshold that guarantees reach.
 
 ## The first-frame contract
 
-The first spoken line, first visual, on-screen headline, title, and cover must promise the same thing. Open on content rather than a logo animation or a multi-second cover card.
+The first spoken line, first visual, on-screen headline, title, and cover must promise the same thing. Start with audible content and a moving speaker or relevant visual. A title can overlay that opening; save the standalone designed cover for the grid or profile.
 
 Before editing, write three to five truthful hook candidates:
 
@@ -55,9 +55,28 @@ Prioritize moments with at least two of these qualities:
 
 Reject excerpts that need extensive missing context, repeat the long episode without a payoff, or rely on a misleading headline.
 
+### Find and assess candidates
+
+For this show, useful discovery lanes are technical misconceptions or failures, founder and product insights, careers and DevRel, disagreements or changed minds, and funny human moments. These are editorial categories, not algorithm categories. Check the show's comments and past retention patterns first. Where available, YouTube Studio Research can surface outlier videos and topics watched by your viewers; use those as questions to investigate in the show's own footage, not scripts to copy. [YouTube Studio Research](https://support.google.com/youtube/blog/476500653/youtube-studio-updates-ask-studio-on-mobile-research-and-revamped-insights?hl=en)
+
+Before cutting, keep a compact candidate card:
+
+```text
+episode / source in-out:
+transcript excerpt and ~20 seconds of context on each side:
+intended cold viewer / question they care about:
+exact first spoken line / first visual / on-screen promise:
+payoff line and source time:
+why someone would share, save, or continue to the full episode:
+speaker, factual, context, and asset-rights risks:
+keep or reject, and why:
+```
+
+The card is an editorial decision record, not a predicted reach score. Frame technical specifics through a question a new viewer can understand, then preserve the exact names and claims the speakers made. YouTube recommends making niche topics accessible through a relatable problem and matching the opening to the title's promise. [YouTube Help](https://support.google.com/youtube/answer/16559650)
+
 ## Platform-aware testing
 
-Keep the core story stable and vary one element at a time:
+Keep the core story stable and vary one element at a time when practical:
 
 - opening spoken line
 - first-frame headline
@@ -66,13 +85,26 @@ Keep the core story stable and vary one element at a time:
 - one relevant visual proof or meme
 - caption phrasing, without changing meaning
 
-For Instagram, eligible accounts can use Trial Reels to show a test to non-followers first and review views, likes, comments, and shares before wider distribution. For YouTube, inspect audience retention at key moments and whether the opening delivers on the title/thumbnail promise. For TikTok, consider watch time, completion, shares, relevant captions/sounds, and audience fit together rather than optimizing a single metric.
+For Instagram, eligible accounts can use Trial Reels to show a test to non-followers first and review views, likes, comments, and shares before wider distribution; this is not a randomized A/B test. For YouTube, inspect audience retention and viewed-versus-swiped results, and connect a Short to the matching full episode with Related Video when appropriate. For TikTok, consider watch time, completion, shares, relevant captions/sounds, and audience fit together rather than optimizing a single metric. Export a clean original for each platform without another platform's visible watermark. [Meta Trial Reels](https://about.fb.com/news/2024/12/trial-reels-try-content-non-followers-first-see-what-perfoms-best/) · [YouTube Shorts Analytics](https://support.google.com/youtube/answer/12942217?co=YOUTUBE._YTVideoType%3Dshorts&hl=en) · [YouTube Related Video](https://blog.youtube/creator-and-artist-stories/youtube-related-videos-traffic-guide/) · [Meta originality guidance](https://about.fb.com/br/news/2024/04/ajudando-o-criador-de-conteudo-a-encontrar-novos-publicos/)
 
 Do not rely on `#FYP`, bulk hashtags, copyrighted trend audio, or rapid cuts with no narrative purpose.
 
 ## Post-publication learning loop
 
-Record each variant and review after the platform has had time to distribute it:
+When publishing and analytics are in scope, keep one record per posted variant. Use the same internal review windows, such as 24 hours and seven days, without treating them as platform ranking deadlines:
+
+```text
+clip id / source episode and in-out / editorial lane:
+platform / post URL and time / render path or hash / duration:
+intended viewer / hypothesis / opening line and first frame:
+title / cover / caption / full-episode destination / rights and QA status:
+24-hour native metrics, with denominators where available:
+seven-day native metrics, with denominators where available:
+comparison cohort (same account, platform, format, similar age and topic; n=):
+bounded observation / next hypothesis:
+```
+
+Record only metrics the platform actually exposes. Useful measures include:
 
 - viewed versus swiped away, when available
 - average view duration and percentage viewed
@@ -83,15 +115,21 @@ Record each variant and review after the platform has had time to distribute it:
 - comments that reveal what viewers thought the clip was about
 - profile visits, follows, or long-episode clicks
 
-Translate the result into one reusable rule. Do not generalize from one post when topic, timing, audience, and packaging all changed together.
+Separate exposure (feed shows or reach), response (view choice, retention, shares, saves), and show growth (follows or full-episode clicks). Compare within the same platform and account, at similar post age and preferably similar topic and length. Record a bounded observation and the next hypothesis; do not turn one post into a rule when topic, timing, audience, and packaging changed together. Since August 2026, YouTube counts raw views from the first frame, while engaged views distinguish viewers who chose to watch or stayed past the opening, so raw views alone do not describe retention. [YouTube view definitions](https://blog.youtube/inside-youtube/engaged-views-youtube-explained/)
 
 ## Sources
 
 - YouTube Help, **Understand your content performance for YouTube's recommendation system**: https://support.google.com/youtube/answer/16559650
 - YouTube Help, **Measure key moments for audience retention**: https://support.google.com/youtube/answer/9314415
+- YouTube Help, **Shorts analytics**: https://support.google.com/youtube/answer/12942217?co=YOUTUBE._YTVideoType%3Dshorts&hl=en
+- YouTube Blog, **Engaged views**: https://blog.youtube/inside-youtube/engaged-views-youtube-explained/
+- YouTube Studio, **Research update**: https://support.google.com/youtube/blog/476500653/youtube-studio-updates-ask-studio-on-mobile-research-and-revamped-insights?hl=en
+- YouTube Blog, **Related Video for Shorts**: https://blog.youtube/creator-and-artist-stories/youtube-related-videos-traffic-guide/
+- TikTok Help, **How TikTok recommends content**: https://support.tiktok.com/en/using-tiktok/exploring-videos/how-tiktok-recommends-content/
 - TikTok Newsroom, **5 tips for TikTok creators**: https://newsroom.tiktok.com/5-tips-for-tiktok-creators/?lang=en
 - TikTok Newsroom, **How TikTok recommends videos #ForYou**: https://newsroom.tiktok.com/how-tiktok-recommends-videos-for-you?lang=en
 - Meta, **Test Content With Non-Followers Using Trial Reels**: https://about.fb.com/news/2024/12/trial-reels-try-content-non-followers-first-see-what-perfoms-best/
+- Meta, **Original content and recommendations**: https://about.fb.com/br/news/2024/04/ajudando-o-criador-de-conteudo-a-encontrar-novos-publicos/
 - Meta, **2026: AI Drives Performance**: https://about.fb.com/news/2026/01/2026-ai-drives-performance/
 - `vyralcontent/content-skills`: https://github.com/vyralcontent/content-skills
 - `zaddy99999/video-editing-skills`: https://github.com/zaddy99999/video-editing-skills

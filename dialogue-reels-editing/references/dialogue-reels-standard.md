@@ -29,7 +29,7 @@ A1  cleaned dialogue master
 
 A short needs a complete thought, not merely an isolated quote:
 
-1. **Hook:** the tension or surprise in the first 0–3 seconds.
+1. **Hook:** establish the tension or surprise immediately.
 2. **Setup:** the minimum context needed to understand the point.
 3. **Development:** the reasoning, contrast, or anecdote.
 4. **Payoff:** the useful, funny, or surprising conclusion.
@@ -96,13 +96,7 @@ Cut on a closed mouth, blink, head turn, hand gesture, or camera change where po
 
 ## 6. Active-speaker framing
 
-Use this confidence order:
-
-1. isolated microphone activity
-2. transcript/diarization timing
-3. visible mouth motion
-4. conversational context
-5. manual review at the switch
+Corroborate isolated microphone activity, transcript/diarization timing, visible mouth motion, and conversational context. At uncertain switches, review picture and sound together at normal speed. No single cue should decide the visible speaker when the cues disagree.
 
 Rules:
 
@@ -127,39 +121,21 @@ Audio diarization alone cannot identify who is visibly speaking and may mistake 
 
 ## 8. Audio cleanup and mix
 
-Suggested order:
-
-1. repair missing or incorrect source media
-2. remove DC offset or obvious clicks
-3. high-pass only as needed, often around 60–90 Hz for speech
-4. narrow de-hum at the measured mains frequency and harmonics
-5. conservative broadband denoise or dialogue isolation
-6. corrective EQ
-7. gentle compression and peak control
-8. loudness normalization and true-peak limiting
-
-Starting delivery target for social video: approximately `-14 LUFS` integrated with true peak at or below `-1 dBTP`. Measure the full rendered clip; do not normalize from a short selection.
-
-For loud laughter, use clip gain or automation before compression. Do not squash the entire speaker track to control one laugh.
-
-Always listen for watery denoise artifacts, clipped consonants, sudden room-tone changes, doubled dialogue, and audio disappearing after a cut.
-
-### Studio-quality dialogue chain
-
 Treat “studio quality” as transparent repair and consistent delivery, not a heavy preset:
 
-1. restore the cleanest continuous microphone source
-2. remove clicks and repair discontinuities before noise processing
-3. apply a gentle high-pass only where low-frequency rumble exists
+1. repair missing media and restore the cleanest continuous microphone source
+2. remove DC offset, clicks, and discontinuities before noise processing
+3. high-pass only where rumble exists, often around 60–90 Hz for speech
 4. notch measured hum and harmonics rather than broadly removing bass
-5. use the minimum denoise or dialogue isolation needed to lower steady noise
-6. make small subtractive EQ moves before boosting presence
-7. de-ess only the harsh range and verify consonants remain natural
-8. use slow, gentle compression for consistency, then clip gain/automation for exceptional laughs or shouts
-9. use a transparent limiter to meet true-peak delivery
-10. loudness-match the processed and original tracks before judging quality
+5. use the minimum denoise or dialogue isolation needed for steady noise
+6. make small corrective EQ moves; de-ess only where harshness exists
+7. control exceptional laughs or shouts with clip gain or automation before gentle compression
+8. use loudness normalization and a transparent true-peak limiter for delivery
+9. loudness-match the processed and original tracks before judging quality
 
-Keep the untreated dialogue muted on a backup track. If the processed version sounds phasey, watery, gated, overly bright, or smaller than the original, reduce the processing.
+Use only the stages the source needs. Keep the untreated dialogue muted on a backup track. If the processed version sounds phasey, watery, gated, overly bright, or smaller than the original, reduce the processing. Listen for clipped consonants, sudden room-tone changes, doubled dialogue, and audio disappearing after a cut.
+
+Starting delivery target for social video: approximately `-14 LUFS` integrated with true peak at or below `-1 dBTP`. Measure the full rendered clip; do not normalize from a short selection.
 
 ## 9. Meme, reaction, and overlay sourcing
 
@@ -238,7 +214,8 @@ Mixing rules:
 
 - open on the strongest complete line, not a fragment stripped of meaning
 - the hook may use a darker grade or short sound cue, but the transition into the full clip must be obvious
-- keep the cover title editable for at least the opening 2–5 seconds
+- start with audible content and a moving speaker or relevant visual; an editable title may overlay the opening while it remains readable and unobtrusive
+- keep a separate designed cover still for the grid or profile
 - include episode identification and an accurate topic headline
 - for Randomly Distributed, follow `randomly-distributed-video-brand`
 

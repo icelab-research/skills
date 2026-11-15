@@ -80,9 +80,30 @@ ffmpeg -hide_banner -nostats -i "$media_path" \
   -f null - 2>&1 \
   | sed -n '/silence_/p'
 
-echo "loudness"
+echo "per-channel silence (diagnostic only; a quiet mic while another speaks may be normal)"
 ffmpeg -hide_banner -nostats -i "$media_path" \
+  -map "0:a:$audio_stream_ordinal" -vn -sn -dn \
+  -af "silencedetect=noise=-36dB:d=0.55:mono=1" \
+  -f null - 2>&1 \
+  | sed -n '/silence_/p'
+
+echo "loudness"
+loudness_report="$(ffmpeg -hide_banner -nostats -i "$media_path" \
   -map "0:a:$audio_stream_ordinal" -vn -sn -dn \
   -af "loudnorm=I=-14:TP=-1:LRA=11:print_format=json" \
   -f null - 2>&1 \
-  | sed -n '/^{/,/^}/p'
+  | sed -n '/^{/,/^}/p')"
+printf '%s\n' "$loudness_report"
+
+input_integrated_loudness="$(printf '%s\n' "$loudness_report" \
+  | sed -n 's/^[[:space:]]*"input_i"[[:space:]]*:[[:space:]]*"\([^"]*\)".*/\1/p')"
+
+if [[ -z "$input_integrated_loudness" ]]; then
+  echo "loudness analysis unavailable for selected audio stream" >&2
+  exit 2
+fi
+
+if [[ "$input_integrated_loudness" == "-inf" ]]; then
+  echo "selected audio stream appears silent: integrated loudness is -inf" >&2
+  exit 2
+fi

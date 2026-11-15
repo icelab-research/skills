@@ -29,7 +29,7 @@ metadata:
 1. **Protect the source.** Duplicate the source timeline, add the episode/clip/version to its name, and save a project checkpoint before editing.
 2. **Audit the media.** Confirm frame rate, sample rate, available camera angles, isolated microphones, source timecode, channel mapping, and the authoritative dialogue track.
 3. **Build the dialogue map.** Transcribe with word timestamps, identify speakers, mark overlaps, and treat diarization as a draft until audio and visible mouth movement agree.
-4. **Form a retention hypothesis.** Identify the cold viewer, the single promise, the first-frame visual, the first spoken line, the payoff, and why someone would finish, share, save, or watch the full episode. Draft several truthful hooks before choosing one.
+4. **Form a retention hypothesis.** Before cutting, fill the candidate card in `references/organic-reach-playbook.md`: identify the cold viewer, the single promise, the first-frame visual, the first spoken line, the payoff, and why someone would finish, share, save, or watch the full episode. Draft several truthful hooks before choosing one.
 5. **Choose a complete story.** Select a hook, setup, development, payoff, and clean exit. Record the original source range before cutting.
 6. **Remove dead air.** Remove only silence that adds no meaning. Preserve natural breaths, comedic timing, hesitation with intent, and short room-tone handles.
 7. **Remove filler carefully.** Remove standalone `um`, `uh`, `mhm`, `hmm`, repeated starts, and verbal debris only when the sentence remains natural and semantically unchanged.
@@ -41,7 +41,7 @@ metadata:
 13. **Polish dialogue to studio quality.** Repair source problems first, then de-hum, denoise, EQ, de-ess, control dynamics, and normalize loudness conservatively. Compare against the untreated track for artifacts.
 14. **Correct captions.** Compare each caption with approximately 20 seconds before and after, fix names and technical terms, and ensure timing follows the edited audio rather than the original transcript.
 15. **Apply branding.** Use `randomly-distributed-video-brand` for covers, episode labels, type, caption styling, motion, and safe zones when the content belongs to Randomly Distributed.
-16. **Plan a platform test.** Export one core edit, vary only one hypothesis at a time, and use platform analytics to compare retention and sharing. Instagram Trial Reels may be used for eligible accounts. Never promise virality.
+16. **Plan a platform test.** Export one core edit, vary one hypothesis at a time, and record any published variant in the playbook's publication ledger when posting and analytics are in scope. Compare only with similar posts on the same account and platform. Instagram Trial Reels may be used for eligible accounts. Never promise virality.
 17. **Run final QA.** Watch once for story, once for picture/speaker choice, once for audio and lip-sync, and once for captions and platform framing.
 18. **Deliver.** Provide the editable timeline, caption file, clean master, publish render, cover still, source timestamps, asset credits, and an edit/marker manifest.
 
@@ -51,7 +51,7 @@ Every short should include a manifest with:
 
 - episode, clip title, source in/out, edited duration, frame rate, and aspect ratio
 - hook, setup, payoff, and final line
-- cold-viewer promise, hook variants considered, chosen retention hypothesis, and platform test plan
+- the pre-edit candidate card, hook variants considered, chosen retention hypothesis, and platform test plan
 - removed silence and fillers, including any ambiguous removals intentionally preserved
 - authoritative audio track and measured sync correction
 - speaker-switch timestamps and any intentional reaction shots
@@ -92,5 +92,5 @@ See `references/dialogue-reels-standard.md` for thresholds, decision rules, and 
 ## References
 
 - `references/dialogue-reels-standard.md` — editorial decisions, sync method, active-speaker rules, captions, audio, and QA.
-- `references/organic-reach-playbook.md` — evidence-backed hook, retention, idea-mining, testing, and analytics guidance. Read it when selecting clips or optimizing for discovery.
+- `references/organic-reach-playbook.md` — candidate card, hook and retention guidance, and a publication ledger. Read it before selecting clips and when posting or assessing reach is in scope.
 - `scripts/reels_preflight.sh` — read-only media and silence preflight.
