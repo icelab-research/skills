@@ -193,7 +193,7 @@ Mixing rules:
 ## 11. Captions
 
 - regenerate or retime captions from the edited audio, not the long-form timeline
-- compare each uncertain caption with roughly 20 seconds before and after
+- compare each caption with roughly 20 seconds before and after
 - correct names, companies, products, and technical vocabulary
 - use phrase-based line breaks and a maximum of two lines
 - remove captions for words that were removed from audio

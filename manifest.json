@@ -3,12 +3,12 @@
   "skills": [
     {
       "name": "dialogue-reels-editing",
-      "path": "dialogue-reels-editing/SKILL.md",
+      "path": "skills/dialogue-reels-editing/SKILL.md",
       "description": "Context-aware editing and QA for multi-speaker podcast Reels, TikToks, and YouTube Shorts."
     },
     {
       "name": "randomly-distributed-video-brand",
-      "path": "randomly-distributed-video-brand/SKILL.md",
+      "path": "skills/randomly-distributed-video-brand/SKILL.md",
       "description": "Randomly Distributed cover, typography, caption, color, motion, and video-delivery system."
     }
   ]

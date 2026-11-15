@@ -26,8 +26,8 @@ The visual tension is deliberate:
 |---|---|---|
 | Midnight Black | `#0B0D10` | primary canvas, deep shadows |
 | Graphite | `#171A1F` | cards, caption beds, layered panels |
-| Phosphor Green | `#89FF6A` | primary accent, Lois label, nodes, terminal cues |
-| Signal Amber | `#FFB14A` | episode labels, Jacob label, emphasis, warnings |
+| Phosphor Green | `#89FF6A` | primary accent, default episode tag, Lois label, nodes, terminal cues |
+| Signal Amber | `#FFB14A` | alternate episode tag, Jacob label, emphasis, warnings |
 | Error Red | `#FF5C57` | alerts, contradiction, critical emphasis only |
 | Dusty Cream | `#E7DFD1` | headlines, primary copy, paper/tape fills |
 | Steel Blue | `#8EA4C9` | secondary technical diagrams and supporting data |
@@ -74,7 +74,7 @@ Use three digits in graphical episode labels so the system remains aligned as th
 
 Every cover needs four layers:
 
-1. **Episode tag:** small mono label in Phosphor Green or Signal Amber.
+1. **Episode tag:** small mono label in Phosphor Green by default, as in both templates; Signal Amber is the alternate.
 2. **Headline:** large Dusty Cream condensed display type.
 3. **Subject or technical motif:** a face, radio tower, server/node diagram, waveform, cassette, or terminal.
 4. **System texture:** subtle grain, grid, halftone, registration marks, or scanlines.
@@ -112,7 +112,7 @@ Headline rules:
 
 - Use a Graphite or Midnight caption bed at 75–85% opacity.
 - Use Dusty Cream or white for spoken words.
-- Use Phosphor Green for `LOIS` and Signal Amber for `JACOB`.
+- Use Phosphor Green for `LOIS` and Signal Amber for `JACOB`. On a speaker label the colour only identifies the host; it carries no success or warning meaning there.
 - Use uppercase mono labels and sentence-case sans-serif dialogue.
 - Limit captions to two lines and approximately 32–42 characters per line.
 - Break on phrases, not mechanically at a fixed character count.
@@ -164,10 +164,13 @@ V3  editable cover title / hook graphics
 V2  active-speaker picture or reframed crop
 V1  base picture
 ST1 captions
-A3  hook and transition sound design
-A2  cleaned dialogue backup or isolated speaker
+A4  hook and transition sound design
+A3  room tone / ambience
+A2  isolated or backup dialogue
 A1  cleaned dialogue master
 ```
+
+This is the same track layout as `dialogue-reels-editing`; change both together.
 
 Name every graphic and compound clip. Keep source audio linked until lip-sync is verified. Save a versioned timeline before ripple edits or batch subtitle changes.
 

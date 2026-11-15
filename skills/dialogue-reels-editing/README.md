@@ -16,7 +16,9 @@ An open-source-ready agent skill for turning multi-speaker podcast and interview
 
 ## Install
 
-Copy `dialogue-reels-editing` into your agent's skills directory. Keep the directory structure intact so `SKILL.md` can load its reference and script.
+```bash
+npx skills add icelab-research/skills --skill dialogue-reels-editing
+```
 
 ## Preflight
 
@@ -33,4 +35,4 @@ Use `randomly-distributed-video-brand` when the short belongs to the Randomly Di
 
 ## License
 
-Choose and add the repository's license before public release.
+MIT. See the `LICENSE` file at the repository root.

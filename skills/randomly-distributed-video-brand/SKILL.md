@@ -7,6 +7,7 @@ description: |
   Instagram Reels, TikTok, Spotify video, or promotional clips.
 metadata:
   version: "1.0.0"
+  internal: true
   short-description: Apply the Randomly Distributed video brand
 ---
 
