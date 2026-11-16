@@ -10,7 +10,7 @@ Tools for working with media, published by [Ice Lab](https://icelab.sh).
 
 | Skill | Purpose |
 |---|---|
-| [`dialogue-audio-improvement`](skills/dialogue-audio-improvement/SKILL.md) | Repair noisy dialogue with source-channel selection, neural enhancement, measured EQ, and sync checks. |
+| [`dialogue-audio-improvement`](skills/dialogue-audio-improvement/SKILL.md) | Improve spoken audio with source diagnosis, proportionate noise repair, and listening and sync checks. |
 | [`dialogue-reels-editing`](skills/dialogue-reels-editing/SKILL.md) | Edit multi-speaker podcast and interview footage into synced, captioned, studio-polished short-form video. |
 | [`randomly-distributed-video-brand`](skills/randomly-distributed-video-brand/SKILL.md) | Apply the show's retro-technical identity to covers, captions, and video graphics. |
 | [`studio-audio-verifying`](skills/studio-audio-verifying/SKILL.md) | Diagnose and verify spoken-audio cleanup for publishable video and podcasts. |
