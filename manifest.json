@@ -4,7 +4,7 @@
     {
       "name": "dialogue-audio-improvement",
       "path": "skills/dialogue-audio-improvement/SKILL.md",
-      "description": "Source-aware neural repair of noisy spoken dialogue with measured hum removal and sync verification."
+      "description": "Source diagnosis, proportionate repair, and listening and sync checks for spoken audio."
     },
     {
       "name": "dialogue-reels-editing",
