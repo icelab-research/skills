@@ -2,6 +2,11 @@
   "version": 1,
   "skills": [
     {
+      "name": "dialogue-audio-improvement",
+      "path": "skills/dialogue-audio-improvement/SKILL.md",
+      "description": "Source-aware neural repair of noisy spoken dialogue with measured hum removal and sync verification."
+    },
+    {
       "name": "dialogue-reels-editing",
       "path": "skills/dialogue-reels-editing/SKILL.md",
       "description": "Context-aware editing and QA for multi-speaker podcast Reels, TikToks, and YouTube Shorts."
